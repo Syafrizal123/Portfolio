@@ -1,0 +1,363 @@
+html, body {
+	
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+/*Navbar*/
+.navbar .container {
+  padding: 0;
+  
+}
+.navbar-brand {
+  font-size: 32px;
+  color: #ffffff !important;
+}
+.nav-link {
+    color: #ffffff !important;
+  }
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border: 2px solid #ffffff;
+    margin: auto;
+    margin-bottom: -3px;
+  }
+  
+
+/*Ahir Navbar*/
+
+/*Jumbotron*/
+#photo{
+	border-radius: 50%;
+	box-shadow: 0px 5px 35px 1px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  height: 100%;
+  width: 100%;
+	background-color: #B3B0C4;
+}
+.jumbotron h1 {
+  color: #F06262;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 3px 5px 7px #676767;
+}
+.jumbotron span {
+  color: #055E57;
+}
+
+/*Ahir Jumbotron*/
+
+.col-sm-6{
+  padding: 25px;
+  padding-top: 0;
+}
+.row {
+  padding-top: 10px;
+}
+.about {
+  padding: 10px;
+}
+.about .col-sm-12{
+  padding: 0;
+  padding-top: 0;
+  height: 190px;
+  box-shadow: 5px 20px 25px #747070;
+}
+
+
+hr{
+  border-top: 1px solid #E4E1E1;
+}
+
+section {
+  padding: 30px;
+}
+
+
+.skill {
+  padding: 0;
+  padding-top: 50px;
+  background: #ffffff;
+}
+.skill .container .row {
+  padding: 5px;
+}
+.skill h2{
+  color: #000000;
+}
+.skill p{
+  color: #000000;
+}
+
+.main{
+	margin: auto;
+	width: 90%;
+}
+.progressBar{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background: #D2D2D2;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px #222;
+}
+.title{
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	padding-left: 10px;
+	float: left;
+	font-weight: bold;
+	color: #fff;
+	line-height: 2.5;
+	z-index: 1;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 2px 0 2px #333;
+	text-shadow: 1px 1px 1px #000;
+}
+.progress_value{
+	position: relative;
+	float: right;
+	padding-right: 10px;
+	line-height: 2.5;
+	font-weight: bold;
+	color: #455a64;
+	z-index: 1;
+}
+.progress{
+	height: 40px;
+	position: absolute;
+	border-radius: 5px;
+	box-shadow: 2px 0 2px #555;
+}
+.htmlColor{
+	background: #b71c1c;
+}
+.cssColor{
+	background: #4a148c;
+}
+.jsColor{
+	background: #1a237e;
+}
+.phpColor{
+	background: #1b5e20;
+}
+.jqueryColor{
+	background: #ff6f00;
+}
+.wordpressColor{
+	background: #153746;
+}
+		.uiuxColor{
+	background: #60044A;
+}
+.html{
+	background: #ec407a;
+}
+.css{
+	background: #ab47bc;
+}
+.js{
+	background: #5c6bc0;
+}
+.php{
+	background: #66bb6a;
+}
+.jquery{
+	background: #ffca28;
+}
+.wordpress{
+	background:#059EAC;
+}
+.uiux{
+	background:#C7089A;
+}
+@media (max-width: 720px) {
+	.main{
+		width: 90%;
+	}
+}
+
+#jumbotron-swiper{
+    background: #ffffff;
+    font-size: 14px;
+    color:#000;
+    margin:0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.title-swiper{
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+
+}
+.swiper-slide .imgBx{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.swiper-slide .imgBx img{
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.swiper-slide .details{
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 5px;
+}
+.swiper-slide .details h3{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.swiper-slide .details h3 span{
+  font-size: 16px;
+  color: #f44336;
+}
+.swiper-pagination{
+    padding-bottom: 10px;
+}
+
+.btn1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    display: block;
+    background-color: #076960;
+    border: 1px solid;
+    border-radius: 80px;
+    -webkit-border-radius:80px;
+    color: #ffff;
+    transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    text-decoration: none;
+    letter-spacing: 2px;
+    
+    text-shadow: 1px 1px 1px #000;
+}
+.btn1:hover{
+    background-color: #ffff;
+    color: #076960;
+    border-color: #076960; 
+    text-decoration: none;
+}
+
+/*Awal Contact*/
+.contact{
+  padding-bottom: 30px;
+  background: #A1A0A0;
+  margin-bottom: -30px;
+}
+
+#tittle-contact{
+  padding: 30px
+}
+form{
+
+  background: #076960;
+  padding: 20px;
+  box-shadow: 0px 1px 100px 0px #494949;
+  border-radius: 30px;
+
+}
+button{
+  box-shadow: 0 1px 2px #222;
+}
+label {
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 5px;
+  height: 5px;
+}
+/*Ahir Contact*/
+
+footer{
+  margin-top: 30px;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #153746;
+}
+
+
+
+/*DESKTOP Display*/
+@media (min-width: 992px) {
+  
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  
+
+  .jumbotron {
+    margin-top: -150px;
+  }
+}
+/*Ahir DESKTOP Display*/
+
+
+/*Utility*/
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+
+
+/*CSS utk Page Project*/
+
+.halaman-lain .title-halaman-lain span {
+  color: #0E6F62;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 1px 3px 5px #676767;
+}
+
+.my-4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.my-3 span{
+  font-size: 30px;
+  font-weight: bold;
+}
+.halaman-lain p{
+  font-size: 20px;
+}
+.halaman-lain ul{
+  font-size: 20px;
+}
+
+/*Ahir CSS utk Page Project*/
